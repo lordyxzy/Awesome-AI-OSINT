@@ -1,0 +1,29 @@
+{
+  "name": "awesome-ai-osint-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that puts the Awesome-AI-OSINT techniques into practice: username lookup, Google dork generation, subdomain enumeration, IP/domain recon, GEOINT prompts and an AI OSINT assistant.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint src",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "osint",
+    "telegram",
+    "bot",
+    "ai",
+    "recon",
+    "intelligence"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  }
+}
